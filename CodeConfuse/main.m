@@ -7,11 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "WKCodeConfuse.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        if (argc != 2) {
+            NSLog(@"请输入路径");
+        } else {
+            const char *path = argv[1];
+            NSString *nsPath = [NSString stringWithCString:path encoding:NSUTF8StringEncoding];
+            [WKCodeConfuse printAllContentOfProjectPath:nsPath];
+        }
     }
     return 0;
 }

@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		3C897F8D23050F9500071996 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C897F8C23050F9500071996 /* main.m */; };
+		3C897F9523050FAC00071996 /* WKCodeConfuse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C897F9423050FAC00071996 /* WKCodeConfuse.m */; };
+		3C897F982305433100071996 /* Models.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C897F972305433100071996 /* Models.m */; };
+		3C897F9B2305588300071996 /* CodeAnalyse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C897F9A2305588300071996 /* CodeAnalyse.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		3C897F8923050F9500071996 /* CodeConfuse */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodeConfuse; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C897F8C23050F9500071996 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C897F9323050FAC00071996 /* WKCodeConfuse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKCodeConfuse.h; sourceTree = "<group>"; };
+		3C897F9423050FAC00071996 /* WKCodeConfuse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKCodeConfuse.m; sourceTree = "<group>"; };
+		3C897F962305433100071996 /* Models.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Models.h; sourceTree = "<group>"; };
+		3C897F972305433100071996 /* Models.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Models.m; sourceTree = "<group>"; };
+		3C897F992305588300071996 /* CodeAnalyse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodeAnalyse.h; sourceTree = "<group>"; };
+		3C897F9A2305588300071996 /* CodeAnalyse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodeAnalyse.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				3C897F8C23050F9500071996 /* main.m */,
+				3C897F9323050FAC00071996 /* WKCodeConfuse.h */,
+				3C897F9423050FAC00071996 /* WKCodeConfuse.m */,
+				3C897F962305433100071996 /* Models.h */,
+				3C897F972305433100071996 /* Models.m */,
+				3C897F992305588300071996 /* CodeAnalyse.h */,
+				3C897F9A2305588300071996 /* CodeAnalyse.m */,
 			);
 			path = CodeConfuse;
 			sourceTree = "<group>";
@@ -118,7 +133,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C897F9523050FAC00071996 /* WKCodeConfuse.m in Sources */,
 				3C897F8D23050F9500071996 /* main.m in Sources */,
+				3C897F982305433100071996 /* Models.m in Sources */,
+				3C897F9B2305588300071996 /* CodeAnalyse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
